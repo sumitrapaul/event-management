@@ -1,0 +1,45 @@
+[
+    {
+        "id":1,
+        "name":"Invitations Card",
+        "image":"https://i.ibb.co/ZgCsvNQ/invitations.jpg",
+        "price":"$300",
+        "description":"An invitation card is a card mailed out to guests when you want to invite friends to a special event such as birthdays, special wedding anniversaries, graduation, etc."
+    },
+    {
+        "id":2,
+        "name":"Wedding Cakes and Desserts",
+        "image":"https://i.ibb.co/4TxKgVZ/cake.jpg",
+        "price":"$900",
+        "description":"A wedding cake is usually an elaborately decorated and tiered cake made for the celebration of a wedding, and has been that way largely since the Victorian era."   
+    },
+    {
+        "id":3,
+        "name":"MakeUp",
+        "image":"https://i.ibb.co/Pw57j01/makeUp.jpg",
+        "price":"$1200",
+        "description":"Makeup consists of things such as lipstick, eye shadow, and powder which some women put on their faces to make themselves look more attractive or which actors use to change or improve their appearance."   
+    },
+    {
+        "id":4,
+        "name":"Photography",
+        "image":"https://i.ibb.co/N3GLKwV/vintage-retro-camera-envelopes-with-letters-closeup.jpg",
+        "price":"$1800",
+        "description":"Wedding photographers capture memories for brides and grooms, creating a photographic narrative of wedding ceremonies."   
+    },
+    {
+        "id":5,
+        "name":"Catering and Food",
+        "image":"https://i.ibb.co/xH6j6kM/Charcuterie-Station-1.jpg",
+        "price":"$6000",
+        "description":"Offering a range of catering options,including different cuisines and menu customization.Providing food and beverage services for the wedding reception."   
+    },
+    {
+        "id":6,
+        "name":"Honeymoon Planning",
+        "image":"https://i.ibb.co/WkF1JhK/honeymoon-travel-airplane-1.jpg",
+        "price":"$3000",
+        "description":"Assisting couples in planning their honeymoon, including travel bookings and accommodations."  
+
+    }
+]
