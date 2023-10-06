@@ -1,45 +1,45 @@
 [
     {
         "id":1,
-        "name":"Invitations Card",
-        "image":"https://i.ibb.co/ZgCsvNQ/invitations.jpg",
-        "price":"$300",
-        "description":"An invitation card is a card mailed out to guests when you want to invite friends to a special event such as birthdays, special wedding anniversaries, graduation, etc."
+        "name":"Weddings",
+        "image":"https://i.ibb.co/MsMnFgx/pexels-sadman-chowdhury-2058070.jpg",
+        "price":"$5000",
+        "description":"A wedding is a celebration or ceremony of marriage. Besides being a formal way to mark the union of two people, weddings can be a lot of fun too.The earliest meaning of wedding was simply the state of being married, but by the early 1400s it meant the ceremony or rite at the very beginning of a marriage. A wedding can be a simple civil ceremony at City Hall or an elaborate event that takes place over several days and involves religious rituals, food and drink, and hundreds of guests. As an adjective, wedding describes anything related to the ceremony, like wedding cakes and wedding dresses."
     },
     {
         "id":2,
-        "name":"Wedding Cakes and Desserts",
-        "image":"https://i.ibb.co/4TxKgVZ/cake.jpg",
+        "name":"Birthday Parties",
+        "image":"https://i.ibb.co/SnwKGy8/3709.jpg",
         "price":"$900",
-        "description":"A wedding cake is usually an elaborately decorated and tiered cake made for the celebration of a wedding, and has been that way largely since the Victorian era."   
+        "description":"A birthday party is a celebratory event held to mark the anniversary of a persons birth.It is a special occasion where friends and family gather to honor and enjoy the company of the person whose birthday it is.Birthday parties can take many different forms and can vary widely in terms of size,style,and theme, but they typically share some common elements."   
     },
     {
         "id":3,
-        "name":"MakeUp",
-        "image":"https://i.ibb.co/Pw57j01/makeUp.jpg",
+        "name":"Anniversaries",
+        "image":"https://i.ibb.co/BBwkCgd/6602.jpg",
         "price":"$1200",
-        "description":"Makeup consists of things such as lipstick, eye shadow, and powder which some women put on their faces to make themselves look more attractive or which actors use to change or improve their appearance."   
+        "description":"An anniversary is a date which is remembered or celebrated because a special event happened on that date in a previous year."   
     },
     {
         "id":4,
-        "name":"Photography",
-        "image":"https://i.ibb.co/N3GLKwV/vintage-retro-camera-envelopes-with-letters-closeup.jpg",
-        "price":"$1800",
-        "description":"Wedding photographers capture memories for brides and grooms, creating a photographic narrative of wedding ceremonies."   
+        "name":"Engagement Parties",
+        "image":"https://i.ibb.co/z4rPrZ1/groom-putting-ring-bride-s-finger.jpg",
+        "price":"$1500",
+        "description":"An engagement party is a celebration of the proposal, and the first event to kick off your festivities leading up to the wedding day. It comes before the bridal shower, bachelorette, or any other pre-wedding party, and you typically invite a smaller guest list than you are planning to invite to the wedding."   
     },
     {
         "id":5,
-        "name":"Catering and Food",
-        "image":"https://i.ibb.co/xH6j6kM/Charcuterie-Station-1.jpg",
-        "price":"$6000",
-        "description":"Offering a range of catering options,including different cuisines and menu customization.Providing food and beverage services for the wedding reception."   
+        "name":"Retirement Parties",
+        "image":"https://i.ibb.co/6RpjxWX/istockphoto-1200002231-1024x1024.jpg",
+        "price":"$700",
+        "description":"If you or someone you know is retiring, there's cause for celebration. After years of hard work and dedication, a retirement party is a great way to honor your legacy, success, and accomplishments throughout the years. At this event, you can pay homage to your career and share your excitement for what the future holds."   
     },
     {
         "id":6,
-        "name":"Honeymoon Planning",
-        "image":"https://i.ibb.co/WkF1JhK/honeymoon-travel-airplane-1.jpg",
-        "price":"$3000",
-        "description":"Assisting couples in planning their honeymoon, including travel bookings and accommodations."  
+        "name":"Baby shower",
+        "image":"https://i.ibb.co/FX0pChW/pexels-henley-design-studio-914253.jpg",
+        "price":"$300",
+        "description":"A baby shower is a party centered on gift-giving to celebrate the delivery or expected birth of a child, and the transformation of a woman into a mother."  
 
     }
 ]
