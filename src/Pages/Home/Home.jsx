@@ -1,6 +1,8 @@
 import Banner from "../../components/Banner/Banner";
 import Services from "../../components/Services/Services";
-
+import { FaPeopleLine } from "react-icons/fa6";
+import { BsCameraFill } from "react-icons/bs";
+import { GoGoal } from "react-icons/go";
 const Home = () => {
   return (
     <div>
@@ -51,6 +53,30 @@ const Home = () => {
         <h1 className="font-bold">Maria Garcia</h1>
         <h1 className="font-bold">Daniel Brown</h1>
         <h1 className="font-bold">Olivia hall</h1>
+        </div>
+      </div>
+      <div>
+        <h1 className="text-3xl font-bold text-center mt-24 underline mb-8">About Us for event proposal</h1>
+        <div className="flex">
+            <div className="flex-1">
+                <img className="w-full mx-auto h-[250px]" src="https://i.ibb.co/dDp7SRk/photo-1519167758481-83f550bb49b3.jpg" alt="" />
+            </div>
+           <div className="flex-1 flex flex-col justify-center items-center">
+           <div className="mb-8">
+            <div className="flex justify-center items-center gap-4 mb-4">
+               <FaPeopleLine className="text-2xl text-red-700"></FaPeopleLine>
+                <h1 className="text-2xl font-bold">Value Clients</h1>
+            </div>
+            <div className="flex justify-center items-center gap-4 mb-4">
+               <BsCameraFill className="text-2xl text-red-700"></BsCameraFill>
+                <h1 className="text-2xl font-bold">Photography</h1>
+            </div>
+            <div className="flex justify-center items-center gap-4 mb-4">
+               <GoGoal className="text-2xl text-red-700"></GoGoal>
+                <h1 className="text-2xl font-bold">Goal</h1>
+            </div>
+            </div>
+           </div>
         </div>
       </div>
      

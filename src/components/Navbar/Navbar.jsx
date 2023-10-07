@@ -7,7 +7,8 @@ const navlinks=<>
 <li><NavLink to='/' className={({isActive, isPending}) => isPending ? "pending" : isActive? "text-red-500" : ""}>Home</NavLink></li>
         <li><NavLink to='/gallery' className={({isActive, isPending}) => isPending ? "pending" : isActive? "text-red-500" : ""}>Gallery</NavLink></li>
         <li><NavLink to='/blog' className={({isActive, isPending}) => isPending ? "pending" : isActive? "text-red-500" : ""}>Blog</NavLink></li>
-<li></li>
+        <li><NavLink to='/login' className={({isActive, isPending}) => isPending ? "pending" : isActive? "text-red-500" : ""}>Login</NavLink></li>
+
 
 </>
 

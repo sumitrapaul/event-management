@@ -12,6 +12,8 @@ import Root from './Root/Root';
 import Gallery from './components/Gallery/Gallery';
 import Blog from './components/Blog/Blog';
 import ErrorPage from './Pages/ErrorPage/ErrorPage';
+import Login from './Pages/Login/Login';
+import Register from './Pages/Register/Register';
 
 const router = createBrowserRouter([
   {
@@ -32,6 +34,14 @@ const router = createBrowserRouter([
         path:'/blog',
         element:<Blog></Blog>
       },
+      {
+        path:'/login',
+        element:<Login></Login>
+      },
+      {
+        path:'/register',
+        element:<Register></Register>
+      }
      
     ]
   },
