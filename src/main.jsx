@@ -11,6 +11,7 @@ import Home from './Pages/Home/Home';
 import Root from './Root/Root';
 import Gallery from './components/Gallery/Gallery';
 import Blog from './components/Blog/Blog';
+import ErrorPage from './Pages/ErrorPage/ErrorPage';
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,7 @@ const router = createBrowserRouter([
       {
         path:'/',
         element:<Home></Home>,
+        errorElement:<ErrorPage></ErrorPage>,
         loader:() => fetch('/services.json') 
       },
       {
