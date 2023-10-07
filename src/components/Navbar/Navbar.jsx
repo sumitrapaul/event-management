@@ -1,15 +1,15 @@
 import { NavLink } from "react-router-dom";
-import { GiLovers } from 'react-icons/gi';
+
 
 
 const Navbar = () => {
 
 
     return (
-        <div className="flex p-8 mb-12">
-        <div className="flex gap-4">
-         <h1 className="text-3xl">Wedding</h1>
-         <GiLovers className="text-red-600 text-4xl"></GiLovers>
+        <div className="flex pt-8 mb-12">
+        <div className="flex justify-center items-center">
+         <div className="text-3xl text-red-700 font-bold">Social Events</div>
+         <img className="w-24 h-16" src="https://i.ibb.co/vHmDRSj/social-relationship-logo-and-icon-concept-of-teamwork-and-great-work-logo-design-vector.jpg" alt="" />
         </div>
        <div className="flex justify-center items-center navbar-end gap-5">
        <ul className="flex gap-6">

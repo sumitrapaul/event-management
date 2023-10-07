@@ -8,11 +8,13 @@ const Root = () => {
         <div>
             <div className="max-w-6xl mx-auto">
             <Navbar></Navbar>
-            <Outlet></Outlet>
             </div>
-           <div className="mt-16">
-           <Footer></Footer>
+            <div className="max-w-6xl mx-auto">
+           <Outlet></Outlet>
            </div>
+          <Footer></Footer>
+         
+           
         </div>
     );
 };
