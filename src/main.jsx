@@ -14,6 +14,7 @@ import Blog from './components/Blog/Blog';
 import ErrorPage from './Pages/ErrorPage/ErrorPage';
 import Login from './Pages/Login/Login';
 import Register from './Pages/Register/Register';
+import { Toaster } from 'react-hot-toast';
 
 const router = createBrowserRouter([
   {
@@ -36,11 +37,11 @@ const router = createBrowserRouter([
       },
       {
         path:'/login',
-        element:<Login></Login>
+        element:<Login/>
       },
       {
         path:'/register',
-        element:<Register></Register>
+        element:<Register/>
       }
      
     ]
@@ -51,6 +52,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
    <AuthProvider>
    <RouterProvider router={router} />
+   <Toaster/>
    </AuthProvider>
   </React.StrictMode>,
 )
