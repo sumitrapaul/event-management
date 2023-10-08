@@ -10,7 +10,7 @@ const Footer = () => {
     <footer className="footer footer-center mt-36 h-[400px] p-8 bg-base-200 text-base-content rounded">
       <nav className="grid grid-flow-col">
         <div className="flex justify-center items-center">
-          <div className="text-3xl text-red-700 font-bold">Social Events</div>
+          <div className="text-3xl text-blue-700 font-bold">Social Events</div>
           <img
             className="w-28 h-20"
             src="https://i.ibb.co/V3G7W3Z/social-relationship-logo-and-icon-concept-of-teamwork-and-great-work-logo-design-vector-removebg-pre.png"

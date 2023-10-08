@@ -9,7 +9,7 @@ const Home = () => {
       <Banner></Banner>
       <Services></Services>
       <div>
-        <h1 className="text-3xl font-bold text-center mt-24 underline">
+        <h1 className="text-3xl font-bold text-center mt-24 underline decoration-blue-600">
           Our Workers
         </h1>
      <div className="flex gap-12 justify-center items-center">
@@ -56,24 +56,24 @@ const Home = () => {
         </div>
       </div>
       <div>
-        <h1 className="text-3xl font-bold text-center mt-24 underline mb-8">About Us for event proposal</h1>
+        <h1 className="text-3xl font-bold text-center mt-24 underline decoration-blue-600 mb-8">About Us for event proposal</h1>
         <div className="flex">
             <div className="flex-1">
-                <img className="w-full mx-auto h-[250px]" src="https://i.ibb.co/dDp7SRk/photo-1519167758481-83f550bb49b3.jpg" alt="" />
+                <img className="w-full mx-auto h-[260px]" src="https://i.ibb.co/dDp7SRk/photo-1519167758481-83f550bb49b3.jpg" alt="" />
             </div>
            <div className="flex-1 flex flex-col justify-center items-center">
            <div className="mb-8">
-            <div className="flex justify-center items-center gap-4 mb-4">
+            <div className="flex justify-center items-center gap-2 mb-4 border-2 border-indigo-600 p-5 w-[500px]">
                <FaPeopleLine className="text-2xl text-red-700"></FaPeopleLine>
                 <h1 className="text-2xl font-bold">Value Clients</h1>
             </div>
-            <div className="flex justify-center items-center gap-4 mb-4">
+            <div className="flex justify-center items-center gap-2 mb-4 border-2 border-indigo-600 p-5">
                <BsCameraFill className="text-2xl text-red-700"></BsCameraFill>
                 <h1 className="text-2xl font-bold">Photography</h1>
             </div>
-            <div className="flex justify-center items-center gap-4 mb-4">
+            <div className="flex justify-center items-center gap-2 mb-4 border-2 border-indigo-600 p-5">
                <GoGoal className="text-2xl text-red-700"></GoGoal>
-                <h1 className="text-2xl font-bold">Goal</h1>
+                <h1 className="text-2xl font-bold">Event Goals</h1>
             </div>
             </div>
            </div>

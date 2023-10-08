@@ -15,17 +15,23 @@ import ErrorPage from './Pages/ErrorPage/ErrorPage';
 import Login from './Pages/Login/Login';
 import Register from './Pages/Register/Register';
 import { Toaster } from 'react-hot-toast';
+import ServiceDetails from './Pages/ServiceDetails/ServiceDetails';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root></Root>,
+    errorElement:<ErrorPage></ErrorPage>,
     children:[
       {
         path:'/',
         element:<Home></Home>,
-        errorElement:<ErrorPage></ErrorPage>,
         loader:() => fetch('/services.json') 
+      },
+      {
+        path:'/details/:id',
+        element:<ServiceDetails></ServiceDetails>,
+       
       },
       {
         path:'/gallery',

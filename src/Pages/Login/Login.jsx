@@ -4,8 +4,9 @@ import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../Provider/AuthProvider";
 import toast, { Toaster } from "react-hot-toast";
 
+
 const Login = () => {
-  const { signIn } = useContext(AuthContext);
+  const { signIn, googleLogin } = useContext(AuthContext);
   const navigate = useNavigate();
 
   const handleLogin = (e) => {
@@ -15,16 +16,28 @@ const Login = () => {
     signIn(email, password)
       .then((result) => {
         toast.success("Users logged in successfully!!");
+        e.target.reset;
         navigate("/");
       })
       .catch((error) => {
         toast.error(error.message);
       });
   };
+
+  const handleGoogle=()=>{
+    googleLogin()
+    .then(result =>{
+      toast.success("Users logged in successfully!!");
+     
+    })
+    .catch(error =>{
+      toast.error(error.message);
+    })
+  }
   return (
     <div>
       <div>
-        <h1 className="text-3xl font-bold my-8 text-center">Login now!</h1>
+        <h1 className="text-3xl font-bold my-6 text-center">Login now!</h1>
       </div>
       <div className="card flex-shrink-0 w-[500px] mx-auto shadow-2xl bg-base-100">
         <form onSubmit={handleLogin} className="card-body">
@@ -55,14 +68,15 @@ const Login = () => {
           <div className="form-control mt-6">
             <button className="btn btn-primary">Login</button>
           </div>
+         
         </form>
 
-        <p className="text-center mt-3 mb-8">
-          Do not have an account?Please{" "}
-          <Link to="/register" className="text-blue-600 font-bold">
+        <p className="text-center mb-4">
+          Do not have an account? Please <Link to="/register" className="text-blue-600 font-bold">
             Register
           </Link>
         </p>
+        <div className="flex justify-center items-center"><button onClick={handleGoogle} className="btn btn-primary">Google</button></div>
       </div>
       <Toaster/>
     </div>
