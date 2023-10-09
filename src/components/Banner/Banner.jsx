@@ -1,9 +1,8 @@
-
 const Banner = () => {
   return (
     <div className="carousel w-full">
       <div id="slide1" className="carousel-item relative  w-full">
-        <div
+        <div  
           className="hero min-h-screen"
           style={{
             backgroundImage: "url(https://i.ibb.co/30ZpVYW/wedding.png)",

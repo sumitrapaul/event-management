@@ -24,7 +24,7 @@ const Navbar = () => {
         <NavLink
           to="/"
           className={({ isActive, isPending }) =>
-            isPending ? "pending" : isActive ? "text-red-500" : ""
+            isPending ? "pending" : isActive ? "text-red-500 font-bold" : ""
           }
         >
           Home
@@ -32,19 +32,9 @@ const Navbar = () => {
       </li>
       <li>
         <NavLink
-          to="/details"
-          className={({ isActive, isPending }) =>
-            isPending ? "pending" : isActive ? "text-red-500" : ""
-          }
-        >
-          Details
-        </NavLink>
-      </li>
-      <li>
-        <NavLink
           to="/gallery"
           className={({ isActive, isPending }) =>
-            isPending ? "pending" : isActive ? "text-red-500" : ""
+            isPending ? "pending" : isActive ? "text-red-500 font-bold" : ""
           }
         >
           Gallery
@@ -54,7 +44,7 @@ const Navbar = () => {
         <NavLink
           to="/blog"
           className={({ isActive, isPending }) =>
-            isPending ? "pending" : isActive ? "text-red-500" : ""
+            isPending ? "pending" : isActive ? "text-red-500 font-bold" : ""
           }
         >
           Blog
@@ -64,7 +54,7 @@ const Navbar = () => {
         <NavLink
           to="/login"
           className={({ isActive, isPending }) =>
-            isPending ? "pending" : isActive ? "text-red-500" : ""
+            isPending ? "pending" : isActive ? "text-red-500 font-bold" : ""
           }
         >
           Login
@@ -75,11 +65,12 @@ const Navbar = () => {
 
   return (
    <div className="">
-     <div className="flex flex-row pt-8 mb-12 w-full">
-      <div className=" navbar-start">
+     <div className="flex flex-row lg:pt-8 mb-12 w-full">
+      <div className="navbar-start flex justify-center items-center">
+        <h1 className="md:text-2xl font-bold text-blue-700">GatherJoy</h1>
         <img
-          className="w-32 h-16"
-          src="https://i.ibb.co/vHmDRSj/social-relationship-logo-and-icon-concept-of-teamwork-and-great-work-logo-design-vector.jpg"
+          className="w-16 md:w-28 h-16"
+          src="https://i.ibb.co/zNwgG5b/image-removebg-preview.png"
           alt=""
         />
       </div>

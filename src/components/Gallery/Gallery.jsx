@@ -3,7 +3,7 @@
 const Gallery = () => {
     return (
         <div>
-            <h1 className="text-3xl font-bold underline decoration-blue-600 text-center mb-8">All Social Events</h1>
+            <h1 className="text-3xl font-bold underline decoration-blue-600 text-center mb-8">All Social <span className="text-blue-800">Events</span></h1>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 space-y-5 gap-5">
                 <img className="w-[400px] h-[300px] mx-auto mt-4" src="https://i.ibb.co/VJczvc2/yutacar-JKMnm3-CIncw-unsplash.jpg" alt="" />
                 <img className="w-[400px] h-[300px] mx-auto" src="https://i.ibb.co/fnKvYSy/pexels-henley-design-studio-1183960.jpg" alt="" />

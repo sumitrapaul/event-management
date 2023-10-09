@@ -18,8 +18,8 @@ const ServiceDetails = () => {
     })
    },[id])
     return (
-        <div className="card w-96 mx-auto glass">
-  <figure><img className="h-[300px] w-full" src={service.image} alt="card"/></figure>
+        <div className="card md:w-3/4 lg:w-2/4 mx-auto">
+  <figure><img className="h-[300px] w-full lg:h-[500px]" src={service.image} alt="card"/></figure>
   <div className="card-body">
     <h2 className="card-title text-blue-600 font-bold">{service.name}</h2>
     <p>{service.description}</p>

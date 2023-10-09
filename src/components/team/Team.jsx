@@ -1,8 +1,10 @@
+
+
 const Team = () => {
   return (
     <div>
       <h1 className="text-3xl font-bold text-center underline decoration-blue-600">
-        Our Workers
+        Our <span className="text-blue-800">Workers</span>
       </h1>
       <div className="max-w-[1300px] mx-auto mb-16 pl-8">
       <div className="flex justify-center">
