@@ -16,6 +16,7 @@ import Login from './Pages/Login/Login';
 import Register from './Pages/Register/Register';
 import { Toaster } from 'react-hot-toast';
 import ServiceDetails from './Pages/ServiceDetails/ServiceDetails';
+import PrivateRoute from './Route/PrivateRoute';
 
 const router = createBrowserRouter([
   {
@@ -30,16 +31,16 @@ const router = createBrowserRouter([
       },
       {
         path:'/details/:id',
-        element:<ServiceDetails></ServiceDetails>,
+        element:<PrivateRoute><ServiceDetails></ServiceDetails></PrivateRoute>,
        
       },
       {
         path:'/gallery',
-        element:<Gallery></Gallery>
+        element:<PrivateRoute><Gallery></Gallery></PrivateRoute>
       },
       {
         path:'/blog',
-        element:<Blog></Blog>
+        element:<PrivateRoute><Blog></Blog></PrivateRoute>
       },
       {
         path:'/login',

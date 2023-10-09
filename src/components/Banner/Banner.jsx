@@ -2,18 +2,19 @@
 const Banner = () => {
   return (
     <div className="carousel w-full">
-      <div id="slide1" className="carousel-item relative w-full">
+      <div id="slide1" className="carousel-item relative  w-full">
         <div
           className="hero min-h-screen"
           style={{
             backgroundImage: "url(https://i.ibb.co/30ZpVYW/wedding.png)",
             backgroundAttachment:'fixed'
+
           }}
         >
           <div className="hero-overlay bg-opacity-60"></div>
           <div className="hero-content text-center text-neutral-content">
             <div className="max-w-md">
-              <h1 className="mb-5 text-5xl font-bold">Wedding</h1>
+              <h1 className="mb-5 text-2xl lg:text-4xl font-bold">Wedding</h1>
               <button className="btn btn-primary">Get Started</button>
             </div>
           </div>
@@ -37,7 +38,7 @@ const Banner = () => {
           <div className="hero-overlay bg-opacity-60"></div>
           <div className="hero-content text-center text-neutral-content">
             <div className="max-w-md">
-              <h1 className="mb-5 text-5xl font-bold">Birthday</h1>
+              <h1 className="mb-5 text-2xl lg:text-4xl font-bold">Birthday</h1>
               <button className="btn btn-primary">Get Started</button>
             </div>
           </div>
@@ -62,7 +63,7 @@ const Banner = () => {
           <div className="hero-overlay bg-opacity-60"></div>
           <div className="hero-content text-center text-neutral-content">
             <div className="max-w-md">
-              <h1 className="mb-5 text-5xl font-bold">Anniversary</h1>
+              <h1 className="mb-5 text-2xl lg:text-4xl font-bold">Anniversary</h1>
               <button className="btn btn-primary">Get Started</button>
             </div>
           </div>
@@ -87,7 +88,7 @@ const Banner = () => {
           <div className="hero-overlay bg-opacity-60"></div>
           <div className="hero-content text-center text-neutral-content">
             <div className="max-w-md">
-              <h1 className="mb-5 text-5xl font-bold">Engagement</h1>
+              <h1 className="mb-5 tex-2xl lg:text-4xl font-bold">Engagement</h1>
               <button className="btn btn-primary">Get Started</button>
             </div>
           </div>
@@ -112,7 +113,7 @@ const Banner = () => {
           <div className="hero-overlay bg-opacity-60"></div>
           <div className="hero-content text-center text-neutral-content">
             <div className="max-w-md">
-              <h1 className="mb-5 text-5xl font-bold">Retirement</h1>
+              <h1 className="mb-5 text-2xl lg:text-4xl font-bold">Retirement</h1>
               <button className="btn btn-primary">Get Started</button>
             </div>
           </div>
