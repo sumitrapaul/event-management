@@ -12,7 +12,7 @@ const Blog = () => {
    </div>
 <div className="card lg:card-side">
   <div className="card-body">
-    {/* <h2 className="card-title text-blue-800">Beach Wedding</h2> */}
+    <h2 className="card-title text-blue-800">Beach Wedding</h2>
     <p>A beach wedding is a picturesque and romantic ceremony that takes place on the sandy shores of a beach,with the stunning backdrop of the ocean and waves.</p>
   </div>
   <figure><img className="w-[600px] h-[300px] mx-auto mt-8" src="https://i.ibb.co/JdmkF2R/pexels-asad-photo-maldives-169192.jpg" alt="Album"/></figure>

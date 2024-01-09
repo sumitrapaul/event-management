@@ -7,10 +7,10 @@ import { AiFillTwitterCircle, AiFillFacebook, AiFillLinkedin, AiFillInstagram, A
 
 const Footer = () => {
   return (
-    <footer className="footer footer-center mt-16 h-[350px] p-8 bg-base-200 text-base-content rounded">
+    <footer className="footer footer-center mt-16 h-[350px] p-8 bg-blue-200 text-base-content rounded">
       <div className="grid grid-flow-col">
         <div className="flex justify-center items-center">
-          <div className="text-2xl text-blue-700 font-bold">GatherJoy</div>
+          <div className="text-2xl text-black font-bold">GatherJoy</div>
           <img
             className="w-28 h-20"
             src="https://i.ibb.co/zNwgG5b/image-removebg-preview.png"
@@ -31,16 +31,16 @@ const Footer = () => {
       <nav>
         <div className="grid grid-flow-col gap-4">
           <a>
-            <AiFillTwitterCircle className="text-blue-500 text-3xl"></AiFillTwitterCircle>
+            <AiFillTwitterCircle className="text-blue-700 text-3xl"></AiFillTwitterCircle>
           </a>
           <a>
-           <AiFillFacebook className="text-blue-500 text-3xl"></AiFillFacebook>
+           <AiFillFacebook className="text-blue-700 text-3xl"></AiFillFacebook>
           </a>
           <a>
-           <AiFillLinkedin className="text-blue-500 text-3xl"></AiFillLinkedin>
+           <AiFillLinkedin className="text-blue-700 text-3xl"></AiFillLinkedin>
           </a>
           <a>
-           <AiFillInstagram className="text-pink-700 text-3xl"></AiFillInstagram>
+           <AiFillInstagram className="text-pink-800 text-3xl"></AiFillInstagram>
           </a>
           <a>
            <AiOutlineGithub className="text-3xl"></AiOutlineGithub>
