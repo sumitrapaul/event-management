@@ -1,6 +1,6 @@
 # GatherJoy
 
-Website deploy link [here](https://event-management-auth-84584.web.app)
+Website deploy link [here](https://acoustic-salt.surge.sh/)
 
 # Project features and functionalities
 
