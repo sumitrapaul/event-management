@@ -12,8 +12,8 @@ AOS.init({
 
 const Goal = () => {
     return (
-        <div>
-        <h1 className="text-3xl font-bold text-center underline decoration-blue-600 mb-8">About Us <span className='text-blue-800'>for event</span></h1>
+        <div className='mt-10'>
+        <h1 className="text-3xl font-bold text-center underline decoration-blue-600 mb-12">About Us <span className='text-blue-800'>for event</span></h1>
         <div className="flex-col md:flex-row lg:flex">
             <div className="flex-1">
                 <img data-aos="fade-up" className="w-[400px] md:w-[500px] mx-auto h-[260px] mb-4" src="https://i.ibb.co/dDp7SRk/photo-1519167758481-83f550bb49b3.jpg" alt="" />

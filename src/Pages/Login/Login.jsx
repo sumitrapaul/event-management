@@ -66,7 +66,7 @@ const Login = () => {
             />
           </div>
           <div className="form-control mt-6">
-            <button className="btn btn-primary">Login</button>
+            <button className="btn bg-red-800 text-white">Login</button>
           </div>
          
         </form>
@@ -76,7 +76,7 @@ const Login = () => {
             Register
           </Link>
         </p>
-        <div className="flex justify-center items-center"><button onClick={handleGoogle} className="btn btn-primary">Google</button></div>
+        <div className="flex justify-center items-center"><button onClick={handleGoogle} className="btn bg-red-800 text-white">Google</button></div>
       </div>
       <Toaster/>
     </div>

@@ -12,10 +12,10 @@ const Service = ({service}) => {
         <div className="card-body">
           <h2 className="card-title">{name}</h2>
           <p>{description}</p>
-          <p className="text-2xl text-blue-600">{price}</p>
+          <p className="text-2xl text-red-800">{price}</p>
           <div className="card-actions justify-end">
            <Link to={`/details/${id}`}>
-           <button className="btn btn-primary">Details</button>
+           <button className="btn bg-red-800 text-white">Details</button>
            </Link>
           </div>
         </div>

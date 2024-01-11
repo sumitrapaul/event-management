@@ -2,13 +2,13 @@
 
 const Planning = () => {
     return (
-        <div className="mt-6">
-          <h1 className="text-3xl font-bold text-center underline decoration-blue-600 mb-6">
+        <div className="mt-10">
+          <h1 className="text-3xl font-bold text-center underline decoration-blue-600 mb-12">
         Easy <span className="text-blue-800">Planning</span>
       </h1> 
-      <div className="stats stats-vertical lg:stats-horizontal shadow flex justify-center items-center mb-16 border-2 border-blue-600">
+      <div className="stats shadow flex flex-col lg:flex-row justify-center items-center mb-16 border-2 border-blue-600">
   
-  <div className="stat">
+  <div className="stat mr-4">
     <div className="stat-title text-black">Local Event</div>
     <div className="stat-value text-2xl">Total Count : 31K</div>
     <div className="stat-desc text-black text-lg">Date Range : Jan 1st - Feb 1st</div>
